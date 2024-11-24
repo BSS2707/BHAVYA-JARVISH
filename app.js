@@ -68,9 +68,9 @@ function takeCommand(message) {
     } else if (message.includes("open spotify")) {
         window.open("https://open.spotify.com/", "_blank");
         speak("Opening Spotify...");   
-    } else if (message.includes("open Amazon")) {
-        window.open("https://www.amazon.in/", "_blank");
-        speak("Opening amazon...");
+    } else if (message.includes("open whatsapp")) {
+        window.open("https://web.whatsapp.com/", "_blank");
+        speak("Opening whatsapp...");
     } else if (message.includes("open instagram")) {
         window.open("https://www.instagram.com/", "_blank");
         speak("Opening instagram...");
