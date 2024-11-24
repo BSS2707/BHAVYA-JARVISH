@@ -56,8 +56,11 @@ function takeCommand(message) {
         window.open("https://bhavya7com.wordpress.com/", "_blank");
         speak("Opening Website...");
     }else if (message.includes("open Amazon")) {
-        window.open("https://www.amazon.com/", "_blank");
+        window.open("https://www.amazon.in/", "_blank");
         speak("Opening Amazon...");
+    }else if (message.includes("open jiocinema")) {
+        window.open("https://www.jiocinema.com/", "_blank");
+        speak("Opening jiocinema...");
 
     } else if (message.includes("open facebook")) {
         window.open("https://www.facebook.com/", "_blank");
