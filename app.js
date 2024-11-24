@@ -69,7 +69,7 @@ function takeCommand(message) {
         window.open("https://open.spotify.com/", "_blank");
         speak("Opening Spotify...");   
     } else if (message.includes("open whatsapp")) {
-        window.open("https://web.whatsapp.com/", "_blank");
+        window.open("https://www.whatsapp.com/", "_blank");
         speak("Opening whatsapp...");
     } else if (message.includes("open instagram")) {
         window.open("https://www.instagram.com/", "_blank");
