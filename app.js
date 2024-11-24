@@ -70,7 +70,7 @@ function takeCommand(message) {
         speak("Opening amazon...");
     } else if (message.includes("open instagram")) {
         window.open("https://www.instagram.com/", "_blank");
-        speak("Opening amazon...");
+        speak("Opening instagram...");
     } else if (message.includes("open my insta")) {
         window.open("https://www.instagram.com/bhavya_._007/", "_blank");
         speak("Opening instagram...");
